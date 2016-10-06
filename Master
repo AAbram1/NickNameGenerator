@@ -1,0 +1,39 @@
+	// function nickName(name) 
+	// {
+	// //	var vowel = ['a', 'e', 'i', 'o', 'u'];
+	// 	if
+	// 		(name[2] === 'a'|| name[2] === 'e' || name[2] === 'i'|| name[2] === 'o' || name[2] === 'u')
+	//     {
+	//       name = name.slice(0,4);
+	//     	//console.log(name);
+	// 	}
+	// 	else {
+	// 	 name = name.slice(0,3);
+	// 		//console.log(name);
+	// 	}
+	//     return name;
+	// }
+	
+	// nickName("Alexis");
+	
+		function nickName(name) 
+	{
+		var vowel = ['a', 'e', 'i', 'o', 'u'];
+		
+		for (i = 0; i <= vowel.length; i++)
+		{
+			if (name[2] === vowel[i])
+			{
+			 name = name.slice(0,4);
+	    	//console.log(name);	
+			}
+		
+			// 	//else {
+		 //name = name.slice(0,3);
+			//console.log(name);
+		}
+		  return name;
+	
+	}
+	
+	nickName("Alexandra");
